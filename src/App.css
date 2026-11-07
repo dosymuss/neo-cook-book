@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.MuiDialog-paper {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.MuiRating-icon {
+  color: #FFCA42 !important;
+  font-size: 30px !important;
+}
+
+.MuiRating-iconEmpty {
+  color: #FFCA42 !important;
+  font-size: 30px !important;
+}
+
+.css-1c99szj-MuiRating-icon {
+  color: #FFCA42 !important;
+  font-size: 30px !important;
+}
