@@ -12,6 +12,8 @@ const GoogleBtn = ({ text }) => {
     onSuccess: async (tokenResponse) => {
       getInfoForG(tokenResponse.access_token).then(() => {
         fetchLogin({
+          email: process.env.REACT_APP_EMAIL_FOR_G,
+          password: process.env.REACT_APP_PASSWORD_FOR_G,
         });
       });
     },
